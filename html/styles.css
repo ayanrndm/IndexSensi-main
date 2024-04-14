@@ -1,0 +1,41 @@
+header {
+    background-color: #333;
+    color: white;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+#banner {
+    position:relative;
+    background-color: #ccc;
+    margin-bottom: 20px;
+    height: 516px;
+    margin-left: 0;
+}
+picture img{
+    position: relative;
+    left: -10px;
+    margin-left: 0%;
+    margin-right: 0%;
+    height: 520px;
+    width: 1550px;
+    right: -10px;
+}
+#games {
+    position: absolute; /* Definir o posicionamento absoluto */
+    top: 70%; /* Alinhar os placares dos jogos no topo do banner */
+    left: -20%; /* Alinhar os placares dos jogos à esquerda do banner */
+    width: 100%; /* Cobrir toda a largura do banner */
+    text-align: center;
+
+
+}
+.game {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+}
