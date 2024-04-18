@@ -1,10 +1,78 @@
-header {
-    background-color: #333;
-    color: white;
-    margin-left: 0%;
-    margin-right: 0%;
+body {
+    margin: 0 auto;
+    padding: 0%;
+    box-sizing: border-box;
+    border: 0;
+}
+.cabeça{
+    justify-content: space-between;
+    margin-bottom: -3%;
+}
+#header{
+    display: inline-flex;
+    list-style: none;
+    padding-inline-start: 3%;
+    justify-content:space-between ;
+}
+#header li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 8%;
+    font-size:14px;
+    font-family: "Libre Franklin";
+    font-weight: 10%;
+    font-family: 'Poppins';
+    margin-left: 4%;
+    top: -5px;
 }
 
+#menu{
+    color: #ffff;
+    list-style: none;
+    margin-top: 40px;
+    padding-bottom: 0%;
+    background-color:#06aa48;
+}
+
+#menu li{
+    position: relative;
+    display: inline-flex;
+    padding-inline-start: 2.5%;
+    font-size:14;
+    font-family: "Libre Franklin";
+    font-weight: 30%;
+    justify-content:center ;
+    top: -15px;
+
+}
+
+#menu li a{
+    color: #ffff;
+    display: inline;
+    text-decoration: none;
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-family: "Libre Franklin";
+    font-weight: bold;
+
+}
+
+#menu li a:hover{
+    color: #ffff;
+}
+#menu li:last-child{
+    justify-content: center;
+    display: inline-flex;
+    padding: 0px;
+    padding-inline-start: 33.5%;
+    font-size: 40px;
+    font-family: 'Poppins';
+    font-weight:500;
+    margin-top: 15px;
+    top: -15px;
+    
+}
 #banner {
     position:relative;
     background-color: #ccc;
